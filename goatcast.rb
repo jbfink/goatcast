@@ -9,5 +9,5 @@ goatcast = []
 
 goatcast << goat.sample[5]
 end
-speech = Speech.new(goatcast, voice: "en")
+speech = Speech.new(goatcast, speed: 50, pitch: 30, voice: "en")
 speech.save("goatcast.mp3")

@@ -4,7 +4,12 @@ So
 
 * Process CSV
 * Pick 10-20-30-40/whatever random tweet texts from CSV
-* Run some sort of text to speech on them, dump to wav
-* convert wav to mp3
+* Run some sort of text to speech on them
 
 ok?
+
+TODO:
+* Make it so it's just goat tweets and not @ replies
+* backing track
+* auto uploader?
+* better voice?

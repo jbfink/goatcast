@@ -9,5 +9,6 @@ number_of_tweets.times do
 
 goatcast << goat.sample[5]
 end
-speech = Speech.new(goatcast, speed: 50, pitch: 30, voice: "en")
+speech = Speech.new(goatcast, speed: 50, pitch: 30, voice: "en-us")
+File.write('./goatcast.txt', goatcast)
 speech.save("goatcast.mp3")
